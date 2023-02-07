@@ -56,6 +56,7 @@
 	margin-bottom: 30px;
 	@include transition;
 	img {
+		max-width: 165px;
 		margin-bottom: 35px;
 	}
 	h4 {
@@ -97,7 +98,7 @@
 		vertical-align: middle;
 	}
 	img {
-		max-width: 80px;
+		width: 150px!important;
 		margin: 0 auto;
 		@include transition();
 		@media only screen and (max-width: 767px) {
