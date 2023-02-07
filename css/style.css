@@ -394,7 +394,8 @@ button:focus {
             font-size: 50px; } }
       .home_banner_area .banner_inner .banner_content h5 {
         font-size: 24px;
-        margin-bottom: 35px; }
+        /* margin-bottom: 35px; */
+      }
       .home_banner_area .banner_inner .banner_content .primary_btn {
         margin-right: 20px; }
 
@@ -2644,7 +2645,8 @@ h6 {
     .portfolio_box {
       margin-bottom: 35px; } }
   .portfolio_box .short_info {
-    margin-top: 30px; }
+    /* margin-top: 30px; */
+  }
     @media (max-width: 767px) {
       .portfolio_box .short_info {
         margin-top: 20px; } }
@@ -2755,7 +2757,8 @@ h6 {
     .testimonial_area .owl-carousel .owl-dots {
       display: none !important; } }
 .testimonial_area .owl-carousel .owl-item img {
-  width: auto !important; }
+  /* width: 50px!important; */
+}
 
 .testi_item {
   padding: 50px 55px;
@@ -2866,6 +2869,10 @@ h6 {
 
 .subscription .info.error {
   color: red; }
+.text-description {
+  font-size: 16px;
+  font-weight: 400;
+}
 
 /* End Newsletter Area css
 ============================================================================================ */
@@ -3276,7 +3283,8 @@ h6 {
       font-size: 20px;
       color: #000000;
       margin-top: 35px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+    }
   .footer_area .footer_social {
     text-align: center;
     margin: 25px 0px 30px; }
@@ -3300,6 +3308,9 @@ h6 {
       margin-bottom: 0; }
     .footer_area .footer_bottom a {
       color: #854fee; }
+  .footer_logo img {
+    width: 28%;
+  }
 
 /* End Footer Area css
 ============================================================================================ */
